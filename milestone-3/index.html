@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic-Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="formdiv">
+      <div>
+        <h2>Resume Genertor</h2>
+        <form id="form">
+          <label for="profession">Profession :</label>
+          <input
+            id="profession"
+            type="text"
+            name="profession"
+            placeholder="enter your Prefession"
+          />
+          <label for="username">Name:</label>
+          <input
+            id="username"
+            type="text"
+            name="username"
+            placeholder="enter your full name"
+          />
+          <label for="fathername">Father's Name:</label>
+          <input
+            id="fatherName"
+            type="text"
+            placeholder="enter your father's Name"
+          />
+          <label for="cast">Cast:</label>
+          <input id="cast" type="text" placeholder="enter your cast" />
+          <label for="nationality">Nationality:</label>
+          <input id="nationality" type="text" placeholder="enter Nationality" />
+          <label for="city">City :</label>
+          <input id="city" type="text" placeholder="enter City name" />
+          <!--  -->
+          <label for="about">About : </label>
+          <textarea
+            rows="7"
+            name="about"
+            id="about"
+            placeholder="Please Enter some Information about YourSelf."
+          ></textarea>
+          <label for="workExprience">Work Experience :</label>
+          <textarea
+            name="work"
+            id="work"
+            rows="7"
+            placeholder="Please write about Your past Work Experiences."
+          ></textarea>
+          <label for="hobbies">Hobbies(seperate from ",")</label>
+          <input type="text" id="hobbies" placeholder="enter your hobbies" />
+
+          <label for="Skills">Skills(seperate from ",") </label>
+          <input type="text" id="Skills" placeholder="enter your skills" />
+
+          <label for="Education">Education(seperate from ",")</label>
+          <input
+            type="text"
+            id="education"
+            placeholder="enter your eductaion"
+          />
+
+          <label for="projects">projects(seperate from ",")</label>
+          <input
+            type="text"
+            id="projects"
+            placeholder="enter your projects name"
+          />
+          <!--  -->
+          <label for="linkedIn url">LinkedIn URL :</label>
+          <input
+            id="linkedinurl"
+            type="text"
+            placeholder="enter LinkedIn URL"
+          />
+          <!--  -->
+          <label for="GitHub url">GitHub URL :</label>
+          <input id="githuburl" type="text" placeholder="enter GitHub URL" />
+          <!--  -->
+          <label for="numbers">Phone No:</label>
+          <input id="number" type="text" placeholder="enter phone number" />
+
+          <!--  -->
+          <label for="Email">Email:</label>
+          <input id="email" type="email" placeholder="enter Your email" />
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div id="maindiv" style="display: none">
+      <header>
+        <div>
+          <h2 id="headingName"></h2>
+          <hr />
+          <h4 id="putprofession"></h4>
+        </div>
+        <div id="links"></div>
+      </header>
+      <!--  -->
+      <main>
+        <div id="innermain">
+          <!--  -->
+          <div class="left">
+            <div>
+              <div>
+                <h3><li>Personal Detail</li></h3>
+                <ul>
+                  <li id="putName"></li>
+                  <li id="putFName"></li>
+                  <li id="putCast"></li>
+                  <li id="putNationality"></li>
+                  <li id="putCity"></li>
+                </ul>
+              </div>
+              <hr />
+              <div>
+                <h3><li>Profile</li></h3>
+                <p id="putAbout"></p>
+              </div>
+              <hr />
+              <div>
+                <h3><li>Work Experiences</li></h3>
+                <p id="putwork"></p>
+              </div>
+              <hr />
+              <div>
+                <h3><li>Hobbies</li></h3>
+                <ul id="hobbiesUI"></ul>
+              </div>
+              <hr />
+            </div>
+            <!-- <div></div> -->
+
+            <!--  -->
+          </div>
+          <div class="right">
+            <div id="field">
+              <fieldset>
+                <legend>Skills</legend>
+                <ul id="putSkill"></ul>
+              </fieldset>
+
+              <fieldset>
+                <legend>Eduction</legend>
+                <ul id="putEducation"></ul>
+              </fieldset>
+              <fieldset>
+                <legend>Projects</legend>
+                <ul id="putProjects"></ul>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
