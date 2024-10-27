@@ -3,128 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Static-Resume</title>
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="maindiv">
+    <main>
       <header>
         <div>
           <h2>Muhammad Hassaan</h2>
           <hr />
-          <h4>Full-Stack-Developer</h4>
+          <h3>Full-Stack Developer</h3>
         </div>
-        <div id="links">
-          <a href="https://github.com/MuhammadHassaanArain">LinkedIn</a>
-          <a href="https://github.com/MuhammadHassaanArain">GitHub</a>
+        <nav>
+          <a href="">LinkedIn</a>
+          <a href="">GitHub</a>
           <a href="">03273789477</a>
           <a href="">hassaanarain008@gmail.com</a>
-        </div>
+        </nav>
       </header>
-      <!--  -->
-      <main>
-        <div id="innermain">
-          <!--  -->
-          <div class="left">
-            <div>
-              <div>
-                <h3><li>Personal Detail</li></h3>
-                <ul>
-                  <li>Name: Muhammad Hassaan</li>
-                  <li>F/Name: Muhammad Irfan</li>
-                  <li>Cast : Arain</li>
-                  <li>Nationality:Pakistani</li>
-                  <li>City:Hyderabad,Sindh</li>
-                </ul>
-              </div>
-              <hr />
-              <div>
-                <h3><li>Profile</li></h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dicta commodi quam voluptate, iste officia obcaecati
-                  repellendus corporis eveniet deserunt voluptatum libero
-                  tempore. Quibusdam similique explicabo natus vero sequi
-                  tempore necessitatibus.
-                </p>
-              </div>
-              <hr />
-              <div>
-                <h3><li>Work Experiences</li></h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium voluptate eligendi hic eaque omnis, dolor
-                  molestias a, distinctio beatae tempora veritatis eos
-                  dignissimos iure repellat quod. Dolore exercitationem nihil
-                  eligendi.
-                </p>
-              </div>
-              <hr />
-              <div>
-                <h3><li>Hobbies</li></h3>
-                <ul>
-                  <li>Riding</li>
-                  <li>Self-Learning</li>
-                </ul>
-              </div>
-              <hr />
-            </div>
-            <!-- <div></div> -->
-
-            <!--  -->
-          </div>
-          <div class="right">
-            <div id="field">
-              <fieldset>
-                <legend>Skills</legend>
-                <ul>
-                  <li>Typescript</li>
-                  <li>Node.Js</li>
-                  <li>Javascript</li>
-                  <li>Next.Js</li>
-                  <li>HTML/CSS</li>
-                  <li>React.Js</li>
-                  <li>Tailwind CSS</li>
-                </ul>
-              </fieldset>
-
-              <fieldset>
-                <legend>Eduction</legend>
-                <ul>
-                  <li>
-                    Matriculation
-                    <details>
-                      From Federal Government Publisc Boys#1 School Cantt,Hyd
-                    </details>
-                  </li>
-                  <li>
-                    Primary Educatio
-                    <details>From Pakistan Education Cambridge school</details>
-                  </li>
-                  <li>
-                    English Language Diploma
-                    <details>
-                      From Student Link English Institute Phulele
-                    </details>
-                  </li>
-                </ul>
-              </fieldset>
-              <fieldset>
-                <legend>Projects</legend>
-                <ul>
-                  <li>E-Commerce Site</li>
-                  <li>Blog Website</li>
-                  <li>Todo List</li>
-                  <li>Inventory Management system</li>
-                  <li>University Management Systen (OOPs)</li>
-                  <li>Weather Widget</li>
-                </ul>
-              </fieldset>
-            </div>
-          </div>
+      <section id="maincontent">
+        <div id="left-section">
+          <section>
+            <h3><li>Personal Details</li></h3>
+            <p><strong>Name : </strong>Hassaan Arain</p>
+            <p><strong>F/Name : </strong>M.Irfan</p>
+            <p><strong>Nationality : </strong>Pakistani</p>
+            <p><strong>Adress : </strong>Hyderabad Sindh,Pakistan</p>
+          </section>
+          <hr>
+          <section>
+            <h3><li>About Me</li></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut cumque
+              aperiam eius sunt maxime sequi eos reiciendis neque vitae, facilis
+              quia quidem tenetur doloremque consequatur ipsam officiis quod.
+              Sed, suscipit?
+            </p>
+          </section>
+          <hr>
+          <section>
+            <h3><li>Work Experiences</li></h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
+              magni distinctio illo dolor tempore. Sit non totam animi
+              voluptatum debitis fugiat dicta quos ad deleniti minus, reiciendis
+              quo delectus repudiandae.
+            </p>
+          </section>
+          <hr>
+          <section>
+            <h3><li>Hobbies</li></h3>
+            <li>Riding</li>
+            <li>Swimming</li>
+            <li>self-Learning</li>
+          </section>
+          <hr>
         </div>
-      </main>
-      <footer></footer>
-    </div>
+        <div id="right-section">
+            <section>
+                <fieldset>
+                    <legend>Education</legend>
+                    <li>Matriculation
+                      <details>completed Matric from FG Public School in 2024</details>
+                    </li>
+                    <li>Primary Education
+                      <details>Completed Primary Education from PECS in 2022</details>
+                    </li>
+                    <li>English Language Deplome
+                      <details>Completed English Language Course from Student Link in 2021</details>
+                    </li>
+                </fieldset>
+            </section>
+            <section>
+               <fieldset>
+                <legend>Skills</legend>
+                <li>Typescript Expert</li>
+                <li>Tailwind CSS</li>
+                <li>Next Js</li>
+                <li>Headless CMS</li>
+                <li>Postgresql DB</li>
+               </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>Projects</legend>
+                   <li>Car Website With Sanity CMS</li>
+                   <li>Blog Web Application</li>
+                   <li>Full Stack Online Store</li>
+                   <li>University Management System with (OOPs)</li>
+                </fieldset>
+            </section>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

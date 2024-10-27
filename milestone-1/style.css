@@ -1,0 +1,62 @@
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 50px;
+   
+    
+}
+main {
+    border: 1px solid black;   
+
+}
+header {
+    display: flex;
+    background-color: #0a1a2b;
+    color: #ffffff;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 60vw;
+}
+
+nav  {
+    display: flex;
+    flex-direction: column;
+}
+a {
+    color: #ffffff;
+}
+/* header completed */
+#maincontent{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    background-color: #f8f9fa;
+    color: #4a4a4a;
+}
+/* left section */
+#left-section {
+    width: 25vw;
+    border-right: 1px solid black;
+
+}
+section > h3 {
+    color: #2f2f2f;
+}
+
+/* right-section */
+#right-section{
+    width: 25vw;
+}
+section > fieldset > legend {
+    color: #2f2f2f;
+    font-weight: bolder;
+    font-size: larger;
+}
+fieldset {
+    padding: 20px;
+}
+#right-section > section {
+    padding-top: 50px;
+}
